@@ -26,7 +26,7 @@ var gps = require('wifi-location');
 gps.getTowers(function(err, towers){
   // return wifi network info
 
-  gps.getLoation(towers, function(err, loc){
+  gps.getLocation(towers, function(err, loc){
     // return geolocation
     /*
     {
