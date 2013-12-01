@@ -1,0 +1,29 @@
+{
+  "name": "wifi-location",
+  "description": "Triangulate your WiFi signal to guess geolocation",
+  "version": "0.0.1",
+  "homepage": "http://github.com/wearefractal/wifi-location",
+  "repository": "git://github.com/wearefractal/wifi-location.git",
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./index.js",
+  "dependencies": {
+    "request": "~2.27.0",
+    "node-wifiscanner": "0.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/wifi-location/raw/master/LICENSE"
+    }
+  ]
+}
