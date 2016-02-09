@@ -21,9 +21,9 @@ var towers = [
 ];
 
 var arcosanti = {
-  accuracy: 22,
-  latitude: 34.3427352,
-  longitude: -112.1004473
+  accuracy: 24,
+  latitude: 34.3427664,
+  longitude: -112.1004789
 };
 
 describe('wifi-location', function() {
